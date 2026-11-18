@@ -1,0 +1,28 @@
+# Dependencies and generated caches
+node_modules/
+*.tsbuildinfo
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Internal development artifacts
+prompt/
+verification/
+docs/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
